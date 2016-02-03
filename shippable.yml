@@ -37,7 +37,7 @@ integrations:
     - integrationName: ship_slack   
       type: slack       
       recipients:   
-        "#random"   
+        "#random"       
         "#public-chnl"   
       on_start: always
       on_success: always  
