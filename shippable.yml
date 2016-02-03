@@ -33,6 +33,11 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+  notifications:
+   - integerationName: ship_slack
+     type: slack
+     recipients:
+      - "#random"
+      - "#public-chnl"
+      on_success: always
+      on_failure: always
