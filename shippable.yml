@@ -34,10 +34,10 @@ integrations:
     - integrationName: ship-docker
       type: docker
   notifications:
-   - integerationName: ship_slack
-     type: slack   
-     recipients:
-      - "#random"
-      - "#public-chnl"
+    - integerationName: ship_slack
+      type: slack   
+      recipients:
+        - "#random"
+        - "#public-chnl"
       on_success: always  
       on_failure: always
