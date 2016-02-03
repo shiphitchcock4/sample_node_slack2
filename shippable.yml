@@ -35,7 +35,7 @@ integrations:
       type: docker
   notifications:
    - integerationName: ship_slack
-     type: slack
+     type: slack   
      recipients:
       - "#random"
       - "#public-chnl"
