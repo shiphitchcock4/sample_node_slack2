@@ -30,7 +30,7 @@ build:
     - docker push shippabledocker/hitchcock4_sample_node
 
 integrations:
-  hub:
+  hub:    
     - integrationName: ship-docker
       type: docker
   notifications:
