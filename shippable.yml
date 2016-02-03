@@ -34,7 +34,7 @@ integrations:
     - integrationName: ship-docker
       type: docker
   notifications:
-    - integerationName: ship_slack
+    - integrationName: ship_slack
       type: slack       
       recipients:
         - "#random"
