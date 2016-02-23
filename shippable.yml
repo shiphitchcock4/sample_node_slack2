@@ -34,10 +34,10 @@ integrations:
     - integrationName: ship-docker     
       type: docker
   notifications:        
-    - integrationName: ship_slack   
-      type: slack       
+    - integrationName: email  
+      type: email      
       recipients:
-        - "#random" 
+        - sreyaj10@gmail.com
       on_start: always
       on_success: always   
       on_failure: always  
